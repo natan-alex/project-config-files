@@ -17,30 +17,16 @@
 
     // Modules
     "allowImportingTsExtensions": false,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "paths": {
-      "~/*": ["./src/*"]
-    },
 
     // Emit
-    "noEmit": true,
     "outDir": "build",
 
     // Interop Constraints
     "isolatedModules": true,
 
-    // Language and Environment
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "target": "ES2020",
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    "useDefineForClassFields": true,
-
     // Completeness
     "skipLibCheck": true,
   },
-  "include": ["src", "./.eslintrc.cjs", "./.prettierrc.cjs"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "./.eslintrc.cjs", "./.prettierrc.cjs"]
 }
